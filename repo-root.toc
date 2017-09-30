@@ -1,3 +1,4 @@
 
 (defn test []
-  (println "Transitive Git dependency good"))
+  (println "Transitive Git dependency got wrong sha!")
+  (abort))
